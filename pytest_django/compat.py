@@ -1,7 +1,7 @@
 import pytest
 
 from django.conf import settings
-from django.test import get_runner
+from django.test.utils import get_runner
 
 """ In case of specifity added in django.settings the "getrunner" method
     is used to fetch a customized test runner
